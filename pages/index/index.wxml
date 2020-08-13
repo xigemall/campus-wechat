@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view>
+	<banner/>
+	<type/>
+	<content/>
+	<tabbar/>
+</view>

@@ -1,0 +1,5 @@
+<!--pages/amusement/index.wxml-->
+<view>
+	<tabbar></tabbar>
+	<text>娱乐</text>
+</view>

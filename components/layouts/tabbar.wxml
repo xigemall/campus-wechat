@@ -1,0 +1,4 @@
+<!--components/layouts/tabbar.wxml-->
+<van-tabbar active="{{active}}" bind:change="onChange">
+	<van-tabbar-item wx:for="{{tabBarItems}}" wx:key="index" name="{{item.name}}" icon="{{item.icon}}">{{item.title}}</van-tabbar-item>
+</van-tabbar>

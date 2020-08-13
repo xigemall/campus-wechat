@@ -1,0 +1,5 @@
+<!--pages/message/index.wxml-->
+<view>
+	<tabbar></tabbar>
+	<text>pages/message/index.wxml</text>
+</view>

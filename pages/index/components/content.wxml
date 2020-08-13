@@ -1,0 +1,23 @@
+<!--pages/index/components/content.wxml-->
+<view class="content">
+	<view class="information">
+		<van-row>
+			<van-col span="8" custom-class="title">学校资讯</van-col>
+			<van-col offset="12" span="4" custom-class="more">查看更多</van-col>
+		</van-row>
+		<van-row custom-class="information-content">
+			<van-col span="22" custom-class="information-content-item">
+				<van-row>
+					<van-col span="16" >
+						<view class="information-content-item-title">心中永远要有个太阳</view>
+						<view class="information-content-item-description">北大汇丰2020年毕业典礼举行</view>
+						<view class="information-content-item-date">2020/10/10 · 200 浏览</view>
+					</van-col>
+					<van-col span="8">
+            <van-image width="100" height="100" fit="contain" src="https://img.yzcdn.cn/vant/cat.jpeg" />
+          </van-col>
+				</van-row>
+			</van-col>
+		</van-row>
+	</view>
+</view>

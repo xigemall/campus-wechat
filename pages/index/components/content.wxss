@@ -1,0 +1,40 @@
+/* pages/index/components/content.wxss */
+.content{
+  margin-top: 15px;
+  padding: 0 10px;
+}
+.title{
+  font-size: 18px;
+}
+.more{
+  font-size: 12px;
+  color: darkgray;
+}
+
+.information{
+  font-size: 14px;
+}
+.information-content{
+  margin-top: 15px;
+}
+
+.information-content-item{
+  box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.34901960);
+  border-radius: 3px;
+  padding: 10px 10px;
+}
+
+.information-content-item-title{
+  font-size: 18px;
+  color: #333;
+}
+
+.information-content-item-description{
+  margin-top: 6px;
+  color: darkgray;
+}
+
+.information-content-item-date{
+  margin-top: 15px;
+  color: darkgray;
+}

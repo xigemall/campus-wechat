@@ -1,0 +1,5 @@
+<!--pages/discovery/index.wxml-->
+<view>
+	<tabbar></tabbar>
+	<text>pages/discovery/index.wxml</text>
+</view>

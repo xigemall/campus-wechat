@@ -1,0 +1,19 @@
+<!--pages/index/components/banner.wxml-->
+<view class="banner-container">
+	<van-image width="{{width}}" height="{{height}}" lazy-load src="{{bannerSrc}}" />
+	<van-row>
+		<van-col offset="19">
+			<button size="mini" class="switchover">学校切换</button>
+		</van-col>
+	</van-row>
+	<view class="text-info">
+		<van-row>
+			<van-col span="23">{{campus.name}}</van-col>
+		</van-row>
+		<van-row custom-class="info">
+			<van-col span="23">
+				{{campus.content}}
+			</van-col>
+		</van-row>
+	</view>
+</view>

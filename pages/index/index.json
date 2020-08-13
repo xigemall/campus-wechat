@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "tabbar": "/components/layouts/tabbar",
+    "banner": "./components/banner",
+    "type": "./components/type",
+    "content": "./components/content"
+  }
+}

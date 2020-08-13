@@ -1,0 +1,6 @@
+<!--pages/index/components/type.wxml-->
+<view>
+	<van-grid column-num="5" gutter="10">
+		<van-grid-item wx:for="{{type}}" wx:key="index" icon="{{item.icon}}" icon-color="{{item.iconColor}}" text="{{item.text}}" />
+	</van-grid>
+</view>
